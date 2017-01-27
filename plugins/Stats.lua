@@ -91,10 +91,10 @@ local function bot_stats()
   return text
 end
 local function run(msg, matches)
-  if matches[1]:lower() == 'imanager' then -- Put everything you like :)
+  if matches[1]:lower() == 'Spider' then -- Put everything you like :)
     local about = _config.about_text
     local name = user_print_name(msg.from)
-    savelog(msg.to.id, name.." ["..msg.from.id.."] used /imanager ")
+    savelog(msg.to.id, name.." ["..msg.from.id.."] used /Spider ")
     return about
   end 
   if matches[1]:lower() == "statslist" then
