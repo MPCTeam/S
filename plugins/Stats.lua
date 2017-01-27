@@ -143,9 +143,9 @@ return {
     "^[#!/]([Ss]tats)$",
     "^[#!/]([Ss]tatslist)$",
     "^[#!/]([Ss]tats) (group) (%d+)",
-    "^[#!/]([Ss]tats) (imanager)",
-     "^[#!/]([iI][mM]anager)",
-     "^([iI][mM]anager)"
+    "^[#!/]([Ss]tats) (Spider)",
+     "^[#!/]([Ss]pider)",
+     "^([Ss]pidr)"
 
     }, 
   run = run
