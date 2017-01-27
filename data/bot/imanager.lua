@@ -228,7 +228,8 @@ function create_config( )
     "Plugins",
     "Rmsg",
     "Stats",
-    "Whitelist",
+    "Whitelist"
+    "AntiLeave",
     },
     sudo_users = {219410991,}, --Sudo users
     moderation = {data = 'data/moderation.json'},
